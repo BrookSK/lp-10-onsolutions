@@ -237,6 +237,8 @@ img { display: block; max-width: 100%; }
 .offer li::before { margin-top: 2px; width: 20px; height: 20px; background-size: 12px; }
 
 /* FAQ */
+#duvidas { text-align: center; }
+#duvidas .faq { text-align: left; margin-left: auto; margin-right: auto; }
 .faq { display: grid; gap: 10px; margin-top: 22px; }
 details { background: #fff; border: 1px solid var(--line); border-radius: 16px; }
 summary {
