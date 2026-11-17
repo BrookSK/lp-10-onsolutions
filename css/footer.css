@@ -1,0 +1,20 @@
+/* Rodapé padrão (todas as páginas) */
+.lf { background: #070D18; color: #8FA2B8; padding: 40px 0 96px; font-size: 14px; }
+.lf-w { width: min(1000px, 100% - 40px); margin-inline: auto; }
+.lf a { color: #B7C6D8; text-decoration: none; }
+.lf a:hover { color: var(--mint); }
+.lf-top { display: grid; gap: 24px; padding-bottom: 28px; border-bottom: 1px solid rgba(255, 255, 255, .08); }
+.lf-logo { display: inline-flex; align-items: center; gap: 10px; color: #fff !important; font-weight: 600; font-size: 15px; }
+.lf-logo img { width: 28px; height: 28px; }
+.lf-brand p { margin-top: 12px; max-width: 280px; line-height: 1.6; }
+.lf-links { display: flex; flex-wrap: wrap; align-content: flex-start; gap: 12px 18px; }
+.lf-contact { display: grid; gap: 6px; align-content: start; }
+.lf-services { padding-top: 28px; }
+.lf-services h2 { font-size: 13px; font-weight: 600; color: #fff; margin-bottom: 14px; }
+.lf-services ul { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px 16px; }
+.lf-services li { color: #B7C6D8; }
+.lf-copy { margin-top: 32px; font-size: 12.5px; }
+@media (min-width: 768px) {
+  .lf-top { grid-template-columns: 1.1fr 1.4fr 1fr; align-items: start; }
+  .lf-services ul { grid-template-columns: repeat(4, 1fr); gap: 16px 20px; grid-auto-flow: row; }
+}
